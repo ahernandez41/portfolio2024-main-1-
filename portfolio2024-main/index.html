@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arianna Hernandez</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4afc32228.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hello! i'm <span>Arianna Hernandez</span><br> 
+                    i'm a <span>Software Engineer</span>
+                </h1>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/arianna-hernandez-15b9671b0/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ahernandez41"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!---------------about--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/shutterstock_139088813_ed-Shiba-inu-dog-on-white-background.webp" alt="About Me Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        <br>
+                        I am a senior at the College of Engineering at Sacramento State University, pursuing an undergraduate degree in Computer Science and applying a general business administration minor towards my concentration. My primary interests lie in building a career in Software Engineering, and I am excited to seek great related opportunities.
+
+                        Before college, I dedicated the initial phase of my career journey in the creative field. 
+                        
+                        <br> <br>
+                        During this time, I provided graphic design services to diverse business owners within my community. I utilized most of my spare time to network and acquire new skills, aiming to propel my career towards website design. As my interest grew, I enrolled in additional computer science courses to learn programming languages such as Java, HTML, and C++, drawn to these courses' challenges.
+                        <br> <br>
+                        Beyond my academic and professional pursuits, I find joy in gardening, baking, and making homemade lattes. Combining my technical skills with my creative passions, I am eager to contribute to innovative projects and continue growing as a software engineer.</p>
+                        <br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages <br> Proficient:</span><br>Python, Java, CSS, HTML, SQL, Type Script, C programming</li>
+                            <li><span>Software:</span><br>Visual Studio Code, React Native, Android Studio, Excel, MySQL, AWS Lambda, AWS APIs, Lang chain Large Language Model (LLM) Framework, Unix/Linux (WSL2), Eclipse</li>
+                            <li><span>Certifications:</span><br>Advanced Excel McGraw Hill Certificate</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July 2024 - Current </span><br>Management Leadership for Tomorrow - Gen AI MLT Partner Bot, Software Engineer</li>
+                            <li><span>Janurary 2024 - May 2024</span><br>Medi-Track Healthcare - Front-End & UX/UI Developer</li>
+                            <li><span>June 2022 - September 2022</span><br>City of Suisun - Informational Technology Intern</li>
+                            <li><span>February 2022 - August 2022</span><br>California Hispanic Chamber of Commerce - Business Development & Research Intern</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025<br>California State University Sacramento</span> <br> Bachelor of Science in Computer Science <br> Minor in Business Administration (Finance Applied)</li>
+                            <li><span>2021-2025<br>Solano Community College</span> <br> Associates in Computer Science <br> Associates in Business General</li>
+                            <li><span>2017-2021<br>Buckingham Collegiate Charter Academy</span> <br> Highschool Diploma <br> Graphic Design Advancement Program </li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!---------------services--------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-gear"></i>
+                <h2>Software Development</h2>
+                <p>Projects focus on front-end and UX/UI development. Tools used include React Native and Visual Studio Code to create user interfaces. Proficient languages include JavaScript, TypeScript, HTML, and CSS.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Website projects focus on development and design, utilizing tools like Visual Studio Code for both user interface and backend programming. Proficient languages include HTML, CSS, and Apps Script.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-building"></i>
+                <h2>Business Process Optimization</h2>
+                <p>With expertise in business applications, database management systems, and internship experience managing HR resources and employee databases, I specialize in offering business process optimization services. My consultancy involves assessing and enhancing operational workflows to improve efficiency and provide organizational growth. I focus on optimizing business operations, implementing technological solutions, and developing plans aligned with business objectives.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----portfolio----->
+
+<div id="portfolio">
+    <div class="container">
+
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/port-photos/medi-app/1716903038145.jpg">
+                <div class="layer">
+                    <h3>Medi-track Healthcare Application</h3>
+                    <p>
+                        The medical app, designed for user-friendly interaction by medical professionals, is accessible on both Android and iOS platforms.
+                    </p>
+                    <a href="https://github.com/DreamTeam131/Medical-App"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/port-photos/mlt-proj/226051.webp">
+                <div class="layer">
+                    <h3>Gen AI MLT Partner Bot</h3>
+                    <p>(Demo In Progress)</p>
+                    <p>Gathers 10-Q and 10-K data for all publicly traded MLT Partners, then builds a Retrieval-Augmented Generation (RAG) enhanced bot to ask deep questions only found within those company filings.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+            <img src="images/port-photos/redi-proj/Redis-Logo.png">
+            <div class="layer">
+            <h3>Redis Database Project</h3>
+            <p>(Demo In Progress)</p>
+            <p>
+            This project involves recreating Redis's core data structures:strings, lists, sets, and hashes—to support key operations like GET, SET, and EXPIRE.
+            </p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/port-photos/camp-run/Campus Run.png">
+                <div class="layer">
+                    <h3>Campus Dash</h3>
+                    <p>
+                        A mini-game programmed with OOP fundamentals, where the player, a student, must navigate the campus and overcome obstacles to get to class on time. The game simulates the challenge of racing against the clock while avoiding obstacles. 
+                    </p>
+                    <a href="https://github.com/ahernandez41/CampusRun"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----contact---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>ari.hernandez0010@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>(707)606-9902</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/arianna-hernandez-15b9671b0/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ahernandez41"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Resume - Arianna Hernandez 2024 shpe(1).pdf.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Name" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Arianna Hernandez. Made with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyixBIrLsO1XHJytihMtoA3S56VJtqSdDuvBWSL94fOW2on5iYFa4NZ178dbc5UHxGE/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
