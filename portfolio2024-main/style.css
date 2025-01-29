@@ -72,6 +72,11 @@ nav ul li a:hover::after {
 .header-text {
     margin-top: 20%;
     font-size: 30px;
+    font-weight: bold;
+}
+#dynamic-role {
+    display: inline-block;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .header-text h1 {
@@ -356,11 +361,15 @@ nav .fa-solid{
     
     #header{
         background-image: url(images/modeling.jpg);
+        
     }
 
     .header-text{
-        margin-top: 100%;
+        margin-top: 10px;
+        position: relative;
+        padding-top: 1;
         font-size: 16px;
+        top: 12px;
         
     }
     .header-text h1{
